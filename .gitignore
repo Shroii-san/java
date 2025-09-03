@@ -1,0 +1,45 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Abaikan semua file secara default
+
+# Kecuali file .java
+!*.java
+
+# Abaikan folder konfigurasi IntelliJ IDEA
+.idea/
+*.iml
+
+# Abaikan folder output / build
+build/
+target/
+
+# Abaikan file sistem
+Thumbs.db

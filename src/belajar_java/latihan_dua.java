@@ -1,0 +1,21 @@
+package belajar_java;
+
+public class latihan_dua {
+    public static void main(String[] args){
+        int a = 10;
+        int b = 3;
+        double c = a/b;
+        System.out.println("Nilai c = "+ c);
+    }
+}
+
+/*package belajar_java;
+
+public class latihan_dua {
+    public static void main(String[] args){
+        int a = 10;
+        int b = 3;
+        double c = (double) (a / b);
+        System.out.println("Nilai c = "+ c);
+    }
+}*/
