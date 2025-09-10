@@ -1,30 +1,24 @@
 package belajar_java.Pertemuan_dua;
 
+import java.util.Scanner;
+
 public class latihan_empat {
     public static void main(String[] args){
-        String nama, gelar, namaPanggil, namaLengkap;
-        nama = "Rizal Wira";
-        gelar = "Prog";
+        Scanner in = new Scanner(System.in);
 
-        namaPanggil = nama.substring(0,5);
-        System.out.println("Nama Panggilan : " + namaPanggil);
+        int panjang, lebar, luas, keliling;
+        System.out.println("Program menghitung luas dan keliling segi empat");
+        System.out.print("Masukkan Panjang : ");
+        panjang = (in.nextInt());
+        System.out.print("Masukkan lebar : ");
+        lebar = (in.nextInt());
 
-        namaLengkap = nama + ", " + gelar;
-        System.out.println("Nama Lengkap : " + namaLengkap);
+        luas = panjang * lebar;
+        keliling = 2 * (panjang + lebar);
 
-        System.out.print("\n\n\n");
-
-        String s = "satu";
-        System.out.println(s);
-        s = s + "";
-        if (s=="satu") {
-            System.out.println("string sama");
-        }
-        else {
-            System.out.println("string berbeda");
-        }
-
+        System.out.println("Panjang  : "+ panjang + " cm");
+        System.out.println("Lebar : "+ lebar + " cm");
+        System.out.printf("Luas : %d cm\n", luas);
+        System.out.printf("Keliling : %d cm\n", keliling);
     }
 }
-
-

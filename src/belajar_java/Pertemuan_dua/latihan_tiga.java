@@ -11,7 +11,7 @@ public class latihan_tiga {
     System.out.println("Program menghitung luas dan keliling persegi panjang");
     System.out.println("Panjang  : "+ panjang + " cm");
     System.out.println("Lebar : "+ lebar + " cm");
-    System.out.println("Luas : "+ luas + " cm");
-    System.out.println("Keliling : "+ keliling + " cm");
+    System.out.printf("Luas : %d cm\n", luas);
+    System.out.printf("Keliling : %d cm\n", keliling);
     }
 }
