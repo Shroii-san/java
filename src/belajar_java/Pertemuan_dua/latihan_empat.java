@@ -3,8 +3,8 @@ package belajar_java.Pertemuan_dua;
 public class latihan_empat {
     public static void main(String[] args){
         String nama, gelar, namaPanggil, namaLengkap;
-        nama = "Ahmad Aul";
-        gelar = "MT";
+        nama = "Rizal Wira";
+        gelar = "Prog";
 
         namaPanggil = nama.substring(0,5);
         System.out.println("Nama Panggilan : " + namaPanggil);
