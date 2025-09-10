@@ -9,7 +9,7 @@ public class latihan_dua {
     }
 }*/
 
-package belajar_java.Latihan_satu;
+package belajar_java.Pertemuan_satu;
 
 public class latihan_dua {
     public static void main(String[] args){

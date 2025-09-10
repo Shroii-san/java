@@ -1,4 +1,4 @@
-package belajar_java.Latihan_satu;
+package belajar_java.Pertemuan_satu;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

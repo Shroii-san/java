@@ -1,6 +1,6 @@
-package belajar_java.Latihan_dua;
+package belajar_java.Pertemuan_dua;
 
-public class Keliling {
+public class latihan_tiga {
     public static void main(String[] args){
     int panjang, lebar, luas, keliling;
     panjang = 10;

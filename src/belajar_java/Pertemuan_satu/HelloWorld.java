@@ -1,4 +1,4 @@
-package belajar_java.Latihan_satu;
+package belajar_java.Pertemuan_satu;
 
 public class HelloWorld {
     public static void main(String[] args) {
