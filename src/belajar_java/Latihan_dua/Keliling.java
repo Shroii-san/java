@@ -1,0 +1,17 @@
+package belajar_java.Latihan_dua;
+
+public class Keliling {
+    public static void main(String[] args){
+    int panjang, lebar, luas, keliling;
+    panjang = 10;
+    lebar = 20;
+    luas = panjang * lebar;
+    keliling = 2 * (panjang + lebar);
+
+    System.out.println("Program menghitung luas dan keliling persegi panjang");
+    System.out.println("Panjang  : "+ panjang + " cm");
+    System.out.println("Lebar : "+ lebar + " cm");
+    System.out.println("Luas : "+ luas + " cm");
+    System.out.println("Keliling : "+ keliling + " cm");
+    }
+}

@@ -1,4 +1,4 @@
-package belajar_java;
+package belajar_java.Latihan_satu;
 
 public class latihan_satu {
     public static void main(String[] args) {
